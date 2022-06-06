@@ -1,4 +1,5 @@
 import * as React from 'react'
+import { Link } from 'gatsby'
 
 const Location = (props) => {
   return (
@@ -7,7 +8,7 @@ const Location = (props) => {
       <p>{props.address_line_1}</p>
       <p>{props.city_state_zip}</p>
       <p>{props.hours}</p>
-      <p>{props.url}</p>
+      <p><Link to={props.url}>{props.url}</Link></p>
       <p>{props.phone}</p>
     </div>
   )
