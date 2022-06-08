@@ -1,0 +1,13 @@
+.eventStyle{
+  text-align: center;
+  margin-top: 10em;
+  margin-bottom: 1em;
+  background-image: url('http://localhost:8000/images/paintball_event_pic_cropped.jpg');
+  background-size: cover;
+  width: 100vw;
+}
+
+.eventStyle img {
+    width: 50%;
+    mix-blend-mode: multiply;
+}
