@@ -1,7 +1,7 @@
 import * as React from 'react'
 import Location from '../components/location.js'
 import { Link } from 'gatsby'
-import {title} from '../components/location.module.css'
+import {locationStyle, title} from '../components/location.module.css'
 
 
 // data
@@ -32,7 +32,7 @@ const locs = [
 //markup
 const LocationsPage = () => {
   return (
-    <main className={title}>
+    <main className={locationStyle}>
       <Link to="/">Home</Link>
       <title>{pageTitle}</title>
       <h1>{pageTitle}</h1>
