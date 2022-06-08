@@ -1,4 +1,6 @@
 import games_logo from '../images/games_logo.jpeg'
+import mtg_play from '../images/mtg_instore_play.jpeg'
+import baldur from '../images/mtg_event_baldur.jpg'
 
 export const siteUrl = "https://www.cooperscavegames.com"
 export const logo = games_logo
@@ -52,3 +54,5 @@ export const links = [
       ".",
   },
 ]
+export const header_banner = mtg_play
+export const event_banner = baldur
