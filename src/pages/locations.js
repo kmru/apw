@@ -1,9 +1,11 @@
 import * as React from 'react'
 import Location from '../components/location.js'
 import { Link } from 'gatsby'
+import {title} from '../components/location.module.css'
 
 
 // data
+const pageTitle = "Locations & Hours"
 const locs = [
   {
     name: "Cooper's Cave Airsoft & Paintball Warehouse",
@@ -30,10 +32,10 @@ const locs = [
 //markup
 const LocationsPage = () => {
   return (
-    <main>
-      <Link to="/">Home Page</Link>
-      <title>Locations and Hours</title>
-      <h1>Locations and Hours</h1>
+    <main className={title}>
+      <Link to="/">Home</Link>
+      <title>{pageTitle}</title>
+      <h1>{pageTitle}</h1>
       <div>
         {locs.map(loc =>
           <Location
