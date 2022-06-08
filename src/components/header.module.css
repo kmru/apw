@@ -1,0 +1,27 @@
+.headerStyle{
+  text-align: center;
+  display:inline-block;
+}
+
+.headerStyle > .logoStyle {
+  margin-bottom: 1em;
+  padding: .5em;
+  /* height: auto; */
+  /* width: auto; */
+  /* max-width: 100px; */
+  /* max-height: 100px; */
+}
+
+.headerStyle > .bannerStyle img {
+  width: 100vw;
+}
+
+.navStyle{
+  display:inline-block;
+  margin-right: 2.5em;
+  margin-bottom: 1em;
+  padding: .25em;
+  display: none;
+  /* white-space:nowrap; */
+  /* vertical-align: top; */
+}
