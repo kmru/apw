@@ -1,6 +1,6 @@
-import warehouse_logo from '../images/wh_primary_logo.jpg'
-import airsoft_wall from '../images/airsoft_wall_cropped.jpg'
-import paintball_pic from '../images/paintball_event_pic_cropped.jpg'
+import warehouse_logo from '../images/wh/wh_primary_logo.jpg'
+import airsoft_wall from '../images/wh/airsoft_wall_cropped.jpg'
+import paintball_pic from '../images/wh/paintball_event_pic_cropped.jpg'
 
 
 export const siteUrl = "https://www.cooperscavepaintball.com"
